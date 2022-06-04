@@ -43,12 +43,6 @@ struct IntentionsView: View {
                         TextEditor(text: $intentions.description)
                             .frame(width: 300, height: 300)
                         }
-                    Button {
-                        print(intentions.catSelection)
-                        print(intentions.description)
-                    } label: {
-                        Text("test")
-                    }
                     Section(header: Text("press next tab to continue...")) {
                     }
 

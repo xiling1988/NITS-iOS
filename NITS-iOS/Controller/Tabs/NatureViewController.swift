@@ -44,13 +44,6 @@ struct NatureView: View {
                         TextEditor(text: $nature.description)
                             .frame(width: 300, height: 300)
                         }
-                    Button {
-                        print(settings.acType)
-                        print(nature.catSelection)
-                        print(nature.description)
-                    } label: {
-                        Text("test")
-                    }
                     Section(header: Text("press next tab to continue...")) {
                     }
 
