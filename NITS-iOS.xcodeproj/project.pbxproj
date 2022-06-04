@@ -7,46 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A111B732842367900701F49 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A111B722842367900701F49 /* HomeView.swift */; };
+		9A111B732842367900701F49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A111B722842367900701F49 /* HomeViewController.swift */; };
 		9A38D69128447FDE005B9BA6 /* NatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38D69028447FDE005B9BA6 /* NatureModel.swift */; };
 		9A45767B2849CDF400A55FFE /* IntentionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45767A2849CDF400A55FFE /* IntentionsModel.swift */; };
 		9A45767D2849D64400A55FFE /* TimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45767C2849D64400A55FFE /* TimeHelper.swift */; };
 		9A45767F2849E48D00A55FFE /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45767E2849E48D00A55FFE /* TimerManager.swift */; };
 		9A457681284A345300A55FFE /* SpecificsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A457680284A345300A55FFE /* SpecificsModel.swift */; };
-		9AA99D242848CC5C0071B305 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99D232848CC5C0071B305 /* SettingsView.swift */; };
+		9AA99D242848CC5C0071B305 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99D232848CC5C0071B305 /* SettingsViewController.swift */; };
 		9AA99D262848FC0A0071B305 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99D252848FC0A0071B305 /* SettingsModel.swift */; };
 		9AC0E827284221BE00BDB43E /* NITS_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E826284221BE00BDB43E /* NITS_iOSApp.swift */; };
 		9AC0E829284221BE00BDB43E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E828284221BE00BDB43E /* ContentView.swift */; };
 		9AC0E82B284221C000BDB43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0E82A284221C000BDB43E /* Assets.xcassets */; };
 		9AC0E82E284221C000BDB43E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC0E82D284221C000BDB43E /* Preview Assets.xcassets */; };
-		9AC0E835284222C900BDB43E /* NatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E834284222C900BDB43E /* NatureView.swift */; };
-		9AC0E838284222F800BDB43E /* IntentionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E837284222F800BDB43E /* IntentionsView.swift */; };
-		9AC0E83A2842230300BDB43E /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E8392842230300BDB43E /* TimeView.swift */; };
-		9AC0E83C2842231800BDB43E /* SpecificsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E83B2842231800BDB43E /* SpecificsView.swift */; };
+		9AC0E835284222C900BDB43E /* NatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E834284222C900BDB43E /* NatureViewController.swift */; };
+		9AC0E838284222F800BDB43E /* IntentionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E837284222F800BDB43E /* IntentionsViewController.swift */; };
+		9AC0E83A2842230300BDB43E /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E8392842230300BDB43E /* TimeViewController.swift */; };
+		9AC0E83C2842231800BDB43E /* SpecificsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E83B2842231800BDB43E /* SpecificsViewController.swift */; };
 		9AC0E840284229E500BDB43E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E83F284229E500BDB43E /* TabBar.swift */; };
-		9AC1EBE0284AEDF800C6D219 /* BriefingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1EBDF284AEDF800C6D219 /* BriefingSheet.swift */; };
+		9AC1EBE0284AEDF800C6D219 /* BriefingSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1EBDF284AEDF800C6D219 /* BriefingSheetController.swift */; };
+		9ACC63FF284BB590007FDF0B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC63FE284BB590007FDF0B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A111B722842367900701F49 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A111B722842367900701F49 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9A38D69028447FDE005B9BA6 /* NatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureModel.swift; sourceTree = "<group>"; };
 		9A45767A2849CDF400A55FFE /* IntentionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionsModel.swift; sourceTree = "<group>"; };
 		9A45767C2849D64400A55FFE /* TimeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHelper.swift; sourceTree = "<group>"; };
 		9A45767E2849E48D00A55FFE /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 		9A457680284A345300A55FFE /* SpecificsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificsModel.swift; sourceTree = "<group>"; };
-		9AA99D232848CC5C0071B305 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9AA99D232848CC5C0071B305 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9AA99D252848FC0A0071B305 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		9AC0E823284221BE00BDB43E /* NITS-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NITS-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC0E826284221BE00BDB43E /* NITS_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NITS_iOSApp.swift; sourceTree = "<group>"; };
 		9AC0E828284221BE00BDB43E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AC0E82A284221C000BDB43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC0E82D284221C000BDB43E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9AC0E834284222C900BDB43E /* NatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureView.swift; sourceTree = "<group>"; };
-		9AC0E837284222F800BDB43E /* IntentionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionsView.swift; sourceTree = "<group>"; };
-		9AC0E8392842230300BDB43E /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
-		9AC0E83B2842231800BDB43E /* SpecificsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificsView.swift; sourceTree = "<group>"; };
+		9AC0E834284222C900BDB43E /* NatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureViewController.swift; sourceTree = "<group>"; };
+		9AC0E837284222F800BDB43E /* IntentionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionsViewController.swift; sourceTree = "<group>"; };
+		9AC0E8392842230300BDB43E /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		9AC0E83B2842231800BDB43E /* SpecificsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificsViewController.swift; sourceTree = "<group>"; };
 		9AC0E83F284229E500BDB43E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		9AC1EBDF284AEDF800C6D219 /* BriefingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingSheet.swift; sourceTree = "<group>"; };
+		9AC1EBDF284AEDF800C6D219 /* BriefingSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingSheetController.swift; sourceTree = "<group>"; };
+		9ACC63FE284BB590007FDF0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,9 @@
 		9A38D68D28447F70005B9BA6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9AC1EBDF284AEDF800C6D219 /* BriefingSheetController.swift */,
+				9AA99D232848CC5C0071B305 /* SettingsViewController.swift */,
+				9AC0E836284222DA00BDB43E /* Tabs */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -83,11 +88,8 @@
 		9A38D68F28447F8F005B9BA6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9AC0E836284222DA00BDB43E /* Tabs */,
 				9AC0E83F284229E500BDB43E /* TabBar.swift */,
 				9AC0E828284221BE00BDB43E /* ContentView.swift */,
-				9AA99D232848CC5C0071B305 /* SettingsView.swift */,
-				9AC1EBDF284AEDF800C6D219 /* BriefingSheet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,6 +97,7 @@
 		9AC0E81A284221BE00BDB43E = {
 			isa = PBXGroup;
 			children = (
+				9ACC63FE284BB590007FDF0B /* README.md */,
 				9AC0E825284221BE00BDB43E /* NITS-iOS */,
 				9AC0E824284221BE00BDB43E /* Products */,
 			);
@@ -132,11 +135,11 @@
 		9AC0E836284222DA00BDB43E /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				9AC0E834284222C900BDB43E /* NatureView.swift */,
-				9AC0E837284222F800BDB43E /* IntentionsView.swift */,
-				9AC0E8392842230300BDB43E /* TimeView.swift */,
-				9AC0E83B2842231800BDB43E /* SpecificsView.swift */,
-				9A111B722842367900701F49 /* HomeView.swift */,
+				9A111B722842367900701F49 /* HomeViewController.swift */,
+				9AC0E83B2842231800BDB43E /* SpecificsViewController.swift */,
+				9AC0E8392842230300BDB43E /* TimeViewController.swift */,
+				9AC0E837284222F800BDB43E /* IntentionsViewController.swift */,
+				9AC0E834284222C900BDB43E /* NatureViewController.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACC63FF284BB590007FDF0B /* README.md in Resources */,
 				9AC0E82E284221C000BDB43E /* Preview Assets.xcassets in Resources */,
 				9AC0E82B284221C000BDB43E /* Assets.xcassets in Resources */,
 			);
@@ -218,14 +222,14 @@
 				9AA99D262848FC0A0071B305 /* SettingsModel.swift in Sources */,
 				9A457681284A345300A55FFE /* SpecificsModel.swift in Sources */,
 				9A45767F2849E48D00A55FFE /* TimerManager.swift in Sources */,
-				9AC0E838284222F800BDB43E /* IntentionsView.swift in Sources */,
-				9AC0E83A2842230300BDB43E /* TimeView.swift in Sources */,
+				9AC0E838284222F800BDB43E /* IntentionsViewController.swift in Sources */,
+				9AC0E83A2842230300BDB43E /* TimeViewController.swift in Sources */,
 				9AC0E827284221BE00BDB43E /* NITS_iOSApp.swift in Sources */,
-				9AA99D242848CC5C0071B305 /* SettingsView.swift in Sources */,
-				9AC0E83C2842231800BDB43E /* SpecificsView.swift in Sources */,
-				9A111B732842367900701F49 /* HomeView.swift in Sources */,
-				9AC1EBE0284AEDF800C6D219 /* BriefingSheet.swift in Sources */,
-				9AC0E835284222C900BDB43E /* NatureView.swift in Sources */,
+				9AA99D242848CC5C0071B305 /* SettingsViewController.swift in Sources */,
+				9AC0E83C2842231800BDB43E /* SpecificsViewController.swift in Sources */,
+				9A111B732842367900701F49 /* HomeViewController.swift in Sources */,
+				9AC1EBE0284AEDF800C6D219 /* BriefingSheetController.swift in Sources */,
+				9AC0E835284222C900BDB43E /* NatureViewController.swift in Sources */,
 				9AC0E840284229E500BDB43E /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
