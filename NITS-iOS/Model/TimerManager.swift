@@ -28,7 +28,7 @@ class TimerManager: ObservableObject {
     func reset() {
         timerMode = .initial
         timer.invalidate()
-//        setTimerLength(minutes: 60)
+        setTimerLength(minutes: 60)
         secondsLeft = 60
     }
     

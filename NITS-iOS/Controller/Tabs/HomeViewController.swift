@@ -25,8 +25,8 @@ struct HomeView: View {
                     intentions.catSelection = "Other"
                     intentions.description = ""
                     
+                    timerManager.reset()
                     timerManager.timerMode = .initial
-                    timerManager.secondsLeft = 60
                     
                     specifics.description = ""
                 } label: {
