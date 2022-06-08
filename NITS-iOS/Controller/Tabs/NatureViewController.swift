@@ -54,11 +54,10 @@ struct NatureView: View {
                                     }
                                 }
                             }
+                    }
                     Section(header: Text("press next tab to continue...")) {
                     }
 
-                    
-                }
                 
             }.navigationTitle("Nature of Emergency")
         }.navigationViewStyle(.stack)
