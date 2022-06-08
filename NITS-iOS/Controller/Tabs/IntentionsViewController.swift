@@ -10,6 +10,7 @@ import SwiftUI
 struct IntentionsView: View {
     @EnvironmentObject var intentions : IntentionsModel
     @State var isPickerOpen = false
+    @FocusState var isInputActive : Bool
     var body: some View {
         NavigationView {
             VStack{
@@ -42,6 +43,16 @@ struct IntentionsView: View {
                     Section(header: Text("description")) {
                         TextEditor(text: $intentions.description)
                             .frame(width: 300, height: 300)
+                            .focused($isInputActive)
+                            .toolbar {
+                                ToolbarItemGroup(placement: .keyboard) {
+                                    Spacer()
+                                    
+                                    Button("Done") {
+                                        isInputActive = false
+                                    }
+                                }
+                            }
                         }
                     Section(header: Text("press next tab to continue...")) {
                     }

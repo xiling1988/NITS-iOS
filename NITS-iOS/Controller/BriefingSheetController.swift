@@ -80,9 +80,9 @@ struct BriefingSheet: View {
                         }
                     }
                 }
-            .navigationTitle("Briefing Sheet")
-            .padding()
-        }
+            
+                }.navigationTitle("Briefing Sheet")
+                    .padding()
             }
     }
     }

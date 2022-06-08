@@ -12,6 +12,7 @@ struct SpecificsView: View {
     @EnvironmentObject var specifics : SpecificsModel
     @EnvironmentObject var settings : SettingsModel
     @State var isSubmitted = false
+    @FocusState var isInputActive : Bool
     
     var body: some View {
             NavigationView {
@@ -22,6 +23,16 @@ struct SpecificsView: View {
                         Section(header: Text("Please Specify")) {
                             TextEditor(text: $specifics.description)
                                 .frame(width: 300, height: 300)
+                                .focused($isInputActive)
+                                .toolbar {
+                                    ToolbarItemGroup(placement: .keyboard) {
+                                        Spacer()
+                                        
+                                        Button("Done") {
+                                            isInputActive = false
+                                        }
+                                    }
+                                }
                             
                         }
                         Section(header: Text("submit data to obtain briefing")) {}

@@ -11,6 +11,7 @@ struct NatureView: View {
     @EnvironmentObject var nature : NatureModel
     @EnvironmentObject var settings : SettingsModel
     @State var isPickerOpen = false
+    @FocusState var isInputActive : Bool
     var body: some View {
         NavigationView {
             VStack{
@@ -43,7 +44,16 @@ struct NatureView: View {
                     Section(header: Text("description")) {
                         TextEditor(text: $nature.description)
                             .frame(width: 300, height: 300)
-                        }
+                            .focused($isInputActive)
+                            .toolbar {
+                                ToolbarItemGroup(placement: .keyboard) {
+                                    Spacer()
+                                    
+                                    Button("Done") {
+                                        isInputActive = false
+                                    }
+                                }
+                            }
                     Section(header: Text("press next tab to continue...")) {
                     }
 
@@ -63,4 +73,5 @@ struct NatureView_Previews: PreviewProvider {
             .environmentObject(NatureModel())
             .environmentObject(SettingsModel())
     }
+}
 }
