@@ -60,8 +60,8 @@ struct NatureView: View {
 
                 
             }.navigationTitle("Nature of Emergency")
-        }.navigationViewStyle(.stack)
         }
+        }.navigationViewStyle(.stack)
 
     }
 

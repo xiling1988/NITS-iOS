@@ -56,7 +56,7 @@ struct TimeView: View {
             }
             .navigationTitle(Text("Time Available"))
             
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 
