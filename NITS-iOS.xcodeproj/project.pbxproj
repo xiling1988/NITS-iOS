@@ -24,7 +24,7 @@
 		9AC0E83A2842230300BDB43E /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E8392842230300BDB43E /* TimeViewController.swift */; };
 		9AC0E83C2842231800BDB43E /* SpecificsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E83B2842231800BDB43E /* SpecificsViewController.swift */; };
 		9AC0E840284229E500BDB43E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0E83F284229E500BDB43E /* TabBar.swift */; };
-		9AC1EBE0284AEDF800C6D219 /* BriefingSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1EBDF284AEDF800C6D219 /* BriefingSheetController.swift */; };
+		9AC1EBE0284AEDF800C6D219 /* BriefingSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1EBDF284AEDF800C6D219 /* BriefingSheetViewController.swift */; };
 		9ACC63FF284BB590007FDF0B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC63FE284BB590007FDF0B /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		9AC0E8392842230300BDB43E /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		9AC0E83B2842231800BDB43E /* SpecificsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificsViewController.swift; sourceTree = "<group>"; };
 		9AC0E83F284229E500BDB43E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		9AC1EBDF284AEDF800C6D219 /* BriefingSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingSheetController.swift; sourceTree = "<group>"; };
+		9AC1EBDF284AEDF800C6D219 /* BriefingSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingSheetViewController.swift; sourceTree = "<group>"; };
 		9ACC63FE284BB590007FDF0B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +65,7 @@
 		9A38D68D28447F70005B9BA6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9AC1EBDF284AEDF800C6D219 /* BriefingSheetController.swift */,
+				9AC1EBDF284AEDF800C6D219 /* BriefingSheetViewController.swift */,
 				9AA99D232848CC5C0071B305 /* SettingsViewController.swift */,
 				9AC0E836284222DA00BDB43E /* Tabs */,
 			);
@@ -228,7 +228,7 @@
 				9AA99D242848CC5C0071B305 /* SettingsViewController.swift in Sources */,
 				9AC0E83C2842231800BDB43E /* SpecificsViewController.swift in Sources */,
 				9A111B732842367900701F49 /* HomeViewController.swift in Sources */,
-				9AC1EBE0284AEDF800C6D219 /* BriefingSheetController.swift in Sources */,
+				9AC1EBE0284AEDF800C6D219 /* BriefingSheetViewController.swift in Sources */,
 				9AC0E835284222C900BDB43E /* NatureViewController.swift in Sources */,
 				9AC0E840284229E500BDB43E /* TabBar.swift in Sources */,
 			);
