@@ -12,6 +12,8 @@ https://youtu.be/wcjdKeqasWU
 
 DESCRIPTION:
 
+    iOS Application written in Swift, using the SwifUI Framework.
+
     Context: Flight crew can encounter many different unplanned scenarios and emergencies during a flight. In order to react fast and correctly andd deal with the situation, communication between the flight deck and cabin crew is crucial. This is why airlines have standardized protocols of communication, such as the NITS Briefing, to minimize reaction time and maximize clear communication. NITS stands for "Nature of Emergency", "Intentions", "Time Available", and "Specific Instructions" and provide the communication in case of an emergency with structure that can passed on from flight  deck to  cabin crew clearly and time efficiently. Until now, the procedure to conduct a NITS Briefing is as follows:
             1. Pilot makes a PA alerting crew of an emergency: "Purser to the flight Deck"
             2. Flight Purser accesses the flight deck, carrying a pen and paper to take notes. Cabin crew go to their positions to await  instructions. 
